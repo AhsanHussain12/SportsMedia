@@ -11,7 +11,7 @@ const Cricket = ({ navigation }) => {
     const cricketURLoptions = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': '7b6cde7922mshaedcdbe17f11952p12e2d4jsncc57d08b1712',
+            'x-rapidapi-key': ''// replace with your own key,
             'x-rapidapi-host': 'cricket-live-data.p.rapidapi.com'
         }
     };
