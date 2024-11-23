@@ -17,9 +17,10 @@ const LeagueScreen = () => {
         const res = await fetch(
           `https://api.football-data.org/v4/competitions/${id}/matches`,
           {
+    
             method: "GET",
             headers: {
-              "X-Auth-Token": "75d0d550293849c79c17620c873f41ce", // Replace with your actual token
+              "X-Auth-Token": "", // Replace with your actual token
             },
           }
         );
